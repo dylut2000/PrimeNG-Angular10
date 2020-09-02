@@ -1,4 +1,15 @@
+// ===================================================//
+// animate css for your animation
 @import "animate.css/animate.min.css";
+
+// prime icons
 @import "primeicons/primeicons.css";
+// font-awesome icons
+@import "font-awesome/css/font-awesome.min.css";
+// if you wish to switch the themes, go to https://www.primefaces.org/primeng/showcase/#/setup
+// then select one of the listed Free Theme, and replace the following import
 @import "primeng/resources/themes/saga-blue/theme.css";
+
+// main core PrimeNG styles
 @import "primeng/resources/primeng.min.css";
+// ===================================================//
