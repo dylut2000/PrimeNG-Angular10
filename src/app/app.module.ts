@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MyPrimeNgComponentsModule } from './MyPrimeNgComponentsModule';
 import { AppRoutingModule } from './app-routing.module';
+import { FormsModule } from '@angular/forms';
 
 // components
 import { AppComponent } from './app.component';
@@ -18,7 +19,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MyPrimeNgComponentsModule
+    MyPrimeNgComponentsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
